@@ -1,6 +1,20 @@
 
 ## If you substitute matrix x for the makeCacheMatrix function, this make inverse of x and contain it.
-## After that, you put this result on the cachematrix function, you take the result of what is the inverse of x.
+## After that, you put this result on the cacheSolve function, you take the result of what is the inverse of x.
+
+## Step1: You make a matrix which have inverse.
+## ex.) x <- matrix(runif(9),3,3)
+
+## Step2: Put x on the makeCacheMatrix function
+## ex.) aa <- makeCacheMatrix(x)
+
+## Step3: Put aa on the cacheSolve function
+## ex.) bb <- cacheSolve(aa)
+
+## Step4: You execute bb, and you get inverse of x matrix. 
+
+## Step5: You can realize that it's matrix is correctly inverse of x.
+## x %*% bb or bb %*% x
 
 makeCacheMatrix <- function(x = matrix()) { #substitute matrix x for the function
         m <- NULL
