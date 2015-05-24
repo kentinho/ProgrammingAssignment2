@@ -1,5 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
 
 ## If you substitute matrix x for the makeCacheMatrix function, this make inverse of x and contain it.
 ## After that, you put this result on the cachematrix function, you take the result of what is the inverse of x.
