@@ -1,5 +1,5 @@
 
-## If you substitute matrix x for the makeCacheMatrix function, this make inverse of x and contain it.
+## If you put matrix x on the makeCacheMatrix function, this make inverse of x and contain it.
 ## After that, you put this result on the cacheSolve function, you take the result of what is the inverse of x.
 
 ## Step1: You make a matrix which have inverse.
